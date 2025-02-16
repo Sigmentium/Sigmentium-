@@ -1,0 +1,51 @@
+body {
+    background-color:lightgrey;
+    font-family:Verdana;
+}
+a {
+    text-decoration:none;
+}
+img {
+    border:2px solid white;
+    border-radius:10px;
+}
+
+.center {
+    text-align:center;
+}
+
+/* Button */
+#ButtonBy {
+    color:black;
+    background-color:lightskyblue;
+    width:100px;
+    height:30px;
+    font-size:15px;
+    cursor:pointer;
+    border:2px solid black;
+    border-radius:10px;
+}
+#ButtonBy:hover {
+    transition:transform 0.5s;    
+    transform:scale(1.5);
+}
+/* #By1 {
+    padding-left:130px;
+    /* Animation *
+    animation-delay:0s;
+	animation-duration:1s;
+	animation-name:By1;
+} */
+
+#Header {
+    margin-left:60px;
+}
+
+/* @keyframes By1 {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+} */
