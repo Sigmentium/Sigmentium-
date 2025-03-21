@@ -1,6 +1,7 @@
 body {
     background-color:lightgrey;
     font-family:Verdana;
+    margin:0;
 }
 a {
     text-decoration:none;
@@ -10,17 +11,32 @@ img {
     border-radius:10px;
 }
 
+.Tesis {
+    color:crimson;
+}
+.black {
+    color:black;
+}
 .center {
     text-align:center;
+}
+
+#Up {
+    color:black;
+    background-color:lightblue;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:400px;
 }
 
 /* Button */
 #ButtonBy {
     color:black;
     background-color:lightskyblue;
-    width:100px;
-    height:30px;
-    font-size:15px;
+    width:130px;
+    height:40px;
+    font-size:20px;
     cursor:pointer;
     border:2px solid black;
     border-radius:10px;
@@ -29,23 +45,25 @@ img {
     transition:transform 0.5s;    
     transform:scale(1.5);
 }
-/* #By1 {
+#By1 {
     padding-left:130px;
-    /* Animation *
     animation-delay:0s;
 	animation-duration:1s;
 	animation-name:By1;
-} */
-
-#Header {
-    margin-left:60px;
 }
 
-/* @keyframes By1 {
+#Header {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:700px;
+}
+
+@keyframes By1 {
     from {
         opacity:0;
     }
     to {
         opacity:1;
     }
-} */
+}
